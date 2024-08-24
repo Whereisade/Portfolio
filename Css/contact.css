@@ -48,13 +48,14 @@ a{
 }
 
 nav ul li a:hover{
-    transform: scale(1.5);
+    transform: scale(2.5);
 }
 
 /* form page */
 .conhead{
     height: fit-content;
-    background-color: #d4a373;
+    color: #d4a373;
+    background-color: #432818;
     text-align: center;
     padding: 120px;
     font-size: 25px;
@@ -124,4 +125,55 @@ form .btn{
     font-size: 18px;
     background-color: #e9edc9;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.social{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #432818;
+
+}
+.links{
+    display: flex;
+}
+
+.box{
+    /* position: absolute; */
+    width: 210px;
+    height: 30px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: gray;
+    border-style: none;
+    margin: 30px;
+    height: fit-conten;
+    font-size: 18px;
+    
+}
+.shead{
+    margin: 40px;
+    font-size: 25px;
+    color: #ffe6a7;
+}
+.box a{
+    color: #ffe6a7;
+}
+
+footer{
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: #F8FAE5;
 }
