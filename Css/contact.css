@@ -50,3 +50,78 @@ a{
 nav ul li a:hover{
     transform: scale(1.5);
 }
+
+/* form page */
+.conhead{
+    height: fit-content;
+    background-color: #d4a373;
+    text-align: center;
+    padding: 120px;
+    font-size: 25px;
+    font-weight: 1000;
+}
+.conmain{
+    height: fit-content;
+    background-color: #e9edc9;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 100px;
+}
+#cmessage{
+    border: none;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    /* position: relative; */
+    text-align: left;
+    
+
+}
+#cmessage h1{
+    font-size: 43px;
+}
+#cmessage p{
+    font-size: 15px;
+    font-weight: 20;
+}
+.getin{
+    color: #99582a;
+    
+}
+.form{
+    /* border: 1px solid goldenrod; */
+    margin: 50px;
+    height: fit-content;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+}   
+
+label{
+    font-size: 25px;
+    color: #99582a;
+    font-weight: 500;
+}
+form .btn{
+    width: fit-content;
+    border: none;
+    font-size: 18px;
+    background-color: #e9edc9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
