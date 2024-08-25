@@ -182,12 +182,12 @@ form .btn{
 }
 
 .btn {
-    background-color: #222832; /* Button color */
+    background-color: #222832; 
     color: #222832; /* Text color */
-    padding: 12px 24px; /* Padding for the button */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Font size */
+    padding: 12px 24px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
     cursor: pointer; /* Pointer cursor on hover */
     margin: 1px 0 0 0px;
 }
@@ -201,4 +201,40 @@ footer{
     gap: 1.5rem;
     padding: 2rem;
     background-color: #F8FAE5;
+}
+
+
+.social-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-button {
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 20px;
+}
+.social-button:hover {
+    transform: translateY(-5px);
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.instagram{
+    background-color: #5B51D8;
+}
+
+.facebook{
+    background-color: blue;
 }
