@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -70,11 +78,14 @@ nav ul li a:hover{
 .introname h1{
     font-size: 5rem;
     color: #F7F7F7;
+    font-family: "Playfair Display", serif;
+    
 }
 .introname h2{
     font-size: 4rem;
     text-align: center;
     color: #F5B553;
+    font-family: "Arvo", serif;
 }
 
 .btn {
@@ -115,9 +126,10 @@ nav ul li a:hover{
     text-align: left;
     font-size: 20px;
     padding-bottom: 20px;
-    font-size: 25px;
+    font-size: 27px;
     font-weight: 700;
     color: #222831;
+    margin-left: 100px;
 }
 
 .aboutsp{
@@ -135,7 +147,7 @@ nav ul li a:hover{
     font-weight: 1200;
 }
 .aboutinfo{
-   
+    margin-left: 100px;
     width: 700px;
     text-align: center;
 }
@@ -143,6 +155,7 @@ nav ul li a:hover{
     line-height: 35px;
     font-size: 18px;
     color: #03051E;
+    font-family: "Merriweather", serif;
 }
 .imgctn2{
     
@@ -223,7 +236,7 @@ nav ul li a:hover{
     font-family: 'Times New Roman', Times, serif;
 }
 .videoedit p{
-    color: #2c3e50;
+    /* color: #2c3e50; */
     display: flex;
     line-height: 22px;
     font-size: 18px;
