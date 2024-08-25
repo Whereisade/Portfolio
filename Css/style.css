@@ -117,7 +117,7 @@ nav ul li a:hover{
     padding-bottom: 20px;
     font-size: 24px;
     font-weight: 700;
-    color: #B19470;
+    color: #F5B553;
 }
 
 .aboutsp{
@@ -156,12 +156,13 @@ nav ul li a:hover{
 .services{
     height: fit-content;
     background-color: #B19470;
+    padding: 30px;
 }
 .services h1{
     text-align: center;
     padding: 30px;
-    font-size: 24px;
-    color: #3F2305;
+    font-size: 25px;
+    color: white;
 }
 .logoctn{
     width: 110px;
@@ -175,36 +176,39 @@ nav ul li a:hover{
 }
 .webdesign{
     width: 300px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border-radius: 10px;
     height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 25px;
     line-height: 20px;
-    background-color: #8D493A;
+    background-color: #F7F7F7;
 }
 .videoedit{
     width: 300px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border-radius: 10px;
     height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 25px;
     line-height: 20px;
-    background-color: #8D493A;
+    background-color: #F7F7F7;
 }
 .copywrite{
     width: 300px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border-radius: 10px;
     height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 25px;
     line-height: 20px;
-    background-color: #8D493A;
+    background-color: #F7F7F7;
 }
 .serdiv{
     display: flex;
@@ -233,7 +237,7 @@ nav ul li a:hover{
     margin-top: 15px;
     margin-bottom: 10px;
     font-weight: 900;
-    color: #FEFBF6;
+    color: #F5B553;
 }
 footer{
     font-size: 1.8rem;
