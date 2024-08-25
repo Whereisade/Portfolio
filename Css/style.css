@@ -10,7 +10,7 @@ html{
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #F8FAE5;
+    background-color: #222832;
     height: fit-content;
     position: sticky;
     top: 0;
@@ -25,7 +25,7 @@ header{
     padding: 2rem;
 }
 .dev h1{
-    color: #603F26;
+    color: #E7A117;
     font-weight: 600;
     font-size: 30px;
 }
@@ -43,7 +43,7 @@ header{
 }
 a{
     text-decoration: none;
-    color: #603F26;
+    color: #E7A117;
     font-weight: 400;
 }
 
@@ -55,7 +55,7 @@ nav ul li a:hover{
 
 /* section 1 styling */
 .firstsec{
-    background-color: #B19470;
+    background-color: #222831;
     height: fit-content;
     display: flex;
     justify-content: center;
@@ -105,7 +105,7 @@ nav ul li a:hover{
 #aboutme{
     display: flex;
     height: fit-content;
-    background-color: #8D493A;
+    background-color: #FAB95B;
     
     
     
@@ -115,9 +115,9 @@ nav ul li a:hover{
     text-align: left;
     font-size: 20px;
     padding-bottom: 20px;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 700;
-    color: #F5B553;
+    color: #222831;
 }
 
 .aboutsp{
@@ -130,8 +130,9 @@ nav ul li a:hover{
 .aboutsp h1{
     margin-top: -140px;
     padding-bottom: 90px;
-    font-size: 24px;
-    color: white;
+    font-size: 35px;
+    color: #2F3847;
+    font-weight: 1200;
 }
 .aboutinfo{
    
@@ -141,7 +142,7 @@ nav ul li a:hover{
 .aboutinfo p{
     line-height: 35px;
     font-size: 18px;
-    color: white;
+    color: #03051E;
 }
 .imgctn2{
     
@@ -155,14 +156,14 @@ nav ul li a:hover{
 
 .services{
     height: fit-content;
-    background-color: #B19470;
+    background-color: #222831;
     padding: 30px;
 }
 .services h1{
     text-align: center;
     padding: 30px;
-    font-size: 25px;
-    color: white;
+    font-size: 35px;
+    color: #FAB95B;
 }
 .logoctn{
     width: 110px;
@@ -222,6 +223,7 @@ nav ul li a:hover{
     font-family: 'Times New Roman', Times, serif;
 }
 .videoedit p{
+    color: #2c3e50;
     display: flex;
     line-height: 22px;
     font-size: 18px;
@@ -237,7 +239,8 @@ nav ul li a:hover{
     margin-top: 15px;
     margin-bottom: 10px;
     font-weight: 900;
-    color: #F5B553;
+    color: #FAB95B;
+    font-size: 20px;
 }
 footer{
     font-size: 1.8rem;

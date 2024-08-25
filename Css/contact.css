@@ -10,7 +10,7 @@ html{
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #F8FAE5;
+    background-color: #222832;
     height: fit-content;
     position: sticky;
     top: 0;
@@ -25,7 +25,7 @@ header{
     padding: 2rem;
 }
 .dev h1{
-    color: #603F26;
+    color: #E7A117;
     font-weight: 600;
     font-size: 30px;
 }
@@ -37,14 +37,15 @@ header{
     font-size: 18px;
     
 }
+
 .navlist li{
     padding: 2.1rem;
     color: #603F26;
 }
 a{
     text-decoration: none;
-    color: #603F26;
-    font-weight: 400;
+    color: #E7A117;
+    font-weight: 500;
 }
 
 nav ul li a:hover{
@@ -57,16 +58,16 @@ nav ul li a:hover{
 /* form page */
 .conhead{
     height: fit-content;
-    color: #d4a373;
-    background-color: #432818;
+    color: #E7A117;
+    background-color: #222832;
     text-align: center;
     padding: 120px;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 1000;
 }
 .conmain{
     height: fit-content;
-    background-color: #e9edc9;
+    background-color: #FAB95B;
     display: flex;
     /* justify-content: space-between; */
     gap: 100px;
@@ -91,7 +92,7 @@ nav ul li a:hover{
     font-weight: 20;
 }
 .getin{
-    color: #99582a;
+    color: #222832;
     
 }
 .form{
@@ -115,11 +116,21 @@ textarea {
     border: none;
     border-radius: 4px;
     font-size: 25px;
-}   
+    
+} 
+
+input[type="text"],
+input[type="email"],
+textarea a:hover{
+    border: none;
+    outline: none;
+ 
+    
+}
 
 label{
     font-size: 25px;
-    color: #99582a;
+    color: #222832;
     font-weight: 500;
 }
 form .btn{
@@ -137,7 +148,7 @@ form .btn{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #432818;
+    background-color: #222832;
 
 }
 .links{
@@ -164,10 +175,21 @@ form .btn{
 .shead{
     margin: 40px;
     font-size: 25px;
-    color: #ffe6a7;
+    color: #E7A117;
 }
 .box a{
     color: #ffe6a7;
+}
+
+.btn {
+    background-color: #222832; /* Button color */
+    color: #222832; /* Text color */
+    padding: 12px 24px; /* Padding for the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 1px 0 0 0px;
 }
 
 footer{
