@@ -48,7 +48,10 @@ a{
 }
 
 nav ul li a:hover{
-    transform: scale(2.5);
+    transform: scale(1.5);
+    font-size: 19px;
+    text-decoration: underline;
+    text-decoration-color: #432818;
 }
 
 /* form page */
