@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 10px;
+}
 header{
     display: flex;
     justify-content: space-between;

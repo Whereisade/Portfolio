@@ -9,7 +9,7 @@
         
         gap: 2.5rem;
         font-size: 18px;
-        margin-left: 29px;
+        margin-left: 48px;
     }
     .firstsec{
         background-color: #222831;
@@ -164,4 +164,94 @@
         gap: 1.1rem;
         
     }
+
+    /* contact page */
+
+    .conhead{
+        height: fit-content;
+        color: #E7A117;
+        background-color: #222832;
+        text-align: center;
+        padding: 50px;
+        font-size: 20px;
+        font-weight: 1000;
+    }
+    .conmain{
+        flex-direction: column;
+        
+        gap: 0px;
+    }
+
+    #cmessage{
+        border: none;
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        /* position: relative; */
+        text-align: left;
+        
+    
+    }
+    #cmessage h1{
+        font-size: 23px;
+    }
+    #cmessage p{
+        font-size: 14px;
+        font-weight: 20;
+    }
+
+    .form{
+        /* border: 1px solid goldenrod; */
+        margin: 0px 0 10px 30px;
+        
+        
+    }
+    form{
+        gap: 14px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 60%;
+        padding: 5px;
+       
+        font-size: 18px;
+        
+    } 
+    
+  
+    
+    label{
+        font-size: 15px;
+        color: #222832;
+        
+    }
+    form .btn{
+        
+        border: none;
+        font-size: 14px;
+       
+    }
+    .shead{
+        margin: 20px;
+        font-size: 18px;
+        
+    }
+
+    .social-media {
+        
+        gap: 15px;
+        margin: 0px 0 20px;
+      }
+      
+    .social-media a {
+        text-decoration: none;
+        color: #E7A117;
+        font-size: 19px;
+        transition: color 0.3s ease;
+      }
+
 }

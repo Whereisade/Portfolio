@@ -155,8 +155,8 @@ form .btn{
     display: flex;
 }
 
-.box{
-    /* position: absolute; */
+/* .box{
+    position: absolute;
     width: 210px;
     height: 30px;
     border: 1px solid;
@@ -171,7 +171,7 @@ form .btn{
     height: fit-conten;
     font-size: 18px;
     
-}
+} */
 .shead{
     margin: 40px;
     font-size: 20px;
