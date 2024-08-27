@@ -19,6 +19,10 @@
         gap: 5rem;
 
     }
+    .imgctn{
+        margin-left: 50px;
+        align-items: center;
+    }
     
     .introname{
         
@@ -26,18 +30,21 @@
     }
     .introname h1{
         font-size: 3rem;
+        margin-top: 12px;
+        margin-left: 5px;
         
         
     }
     .introname h2{
         font-size: 2rem;
+        margin-left: 5px;
         
     }
     
     .btn {
         padding: 10px 20px; 
         font-size: 14px; 
-        margin: 15px 0 10px 90px;
+        margin: 15px 0 10px 100px;
     }
     .imgctn2{
         display: none;
