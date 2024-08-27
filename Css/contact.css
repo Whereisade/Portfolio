@@ -174,7 +174,7 @@ form .btn{
 }
 .shead{
     margin: 40px;
-    font-size: 25px;
+    font-size: 20px;
     color: #E7A117;
 }
 .box a{
@@ -204,7 +204,7 @@ footer{
 }
 
 
-.social-buttons {
+/* .social-buttons {
     display: flex;
     gap: 10px;
 }
@@ -237,4 +237,22 @@ footer{
 
 .facebook{
     background-color: blue;
-}
+} */
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: #E7A117;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    color: #333; /* Customize this color for GitHub or set a different color */
+  }
