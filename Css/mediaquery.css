@@ -237,9 +237,10 @@
         
     }
     form .btn{
-        
+        margin-left: 0px;
         border: none;
         font-size: 14px;
+        
        
     }
     .inputc{
