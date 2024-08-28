@@ -242,6 +242,10 @@
         font-size: 14px;
        
     }
+    .inputc{
+        display: flex;
+        flex-direction: column;
+    }
     .shead{
         margin: 20px;
         font-size: 18px;
