@@ -80,7 +80,7 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-.dev h1{
+.dev h1 a{
     font-size: 25px;
     color: #E7A117;
 }
