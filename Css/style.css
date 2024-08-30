@@ -10,12 +10,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    
 }
 html{
     font-size: 10px;
 }
 
-header{
+/* header{
     display: flex;
     justify-content: space-between;
     background-color: #222832;
@@ -23,10 +25,11 @@ header{
     position: sticky;
     top: 0;
     z-index: 10;
-    /* align-items: center; */
-}
+    margin-left: 0px;
+    
+} */
 
-.dev{
+/* .dev{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,9 +39,9 @@ header{
     color: #E7A117;
     font-weight: 600;
     font-size: 30px;
-}
+} */
 
-.navi ul{
+/* .navi ul{
     display: flex;
     gap: 8rem;
     list-style: none;
@@ -59,8 +62,43 @@ nav ul li a:hover{
     transform: scale(1.5);
     font-size: 19px;
     text-decoration: underline;
-}
+} */
 
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #222832;
+}
+.navi{
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    padding: 20px 15px 20px 25px;
+}
+.dev{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dev h1{
+    font-size: 25px;
+    color: #E7A117;
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+li a{ 
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #E7A117;
+    
+}
+li a:hover{
+    transition: ease-in 0.5s;
+    color: #F7F7F7;
+}
 /* section 1 styling */
 .firstsec{
     background-color: #222831;

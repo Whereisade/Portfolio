@@ -16,6 +16,7 @@ header{
     top: 0;
     z-index: 10;
     /* align-items: center; */
+    width: 100%;
 }
 
 .dev{
