@@ -2,16 +2,20 @@
     
 }
 @media screen and (max-width: 480px) {
-    header{
+    
+    
+    .dev{
         flex-direction: column;
-        width: 100%;
+        gap: 20px;
     }
-    .navi ul{
+    li a{ 
+        margin-right: 10px;
+        font-size: 16px;
         
-        gap: 2.5rem;
-        font-size: 18px;
-        margin-left: 48px;
+        
     }
+
+
     .firstsec{
         background-color: #222831;
         
@@ -39,6 +43,7 @@
     .introname h2{
         font-size: 2rem;
         margin-left: 5px;
+        margin-top: 5px;
         
     }
     
@@ -105,19 +110,20 @@
     .serdiv{
         flex-direction: column;
         gap: 50px;
+        align-items: center;
     }
     .services{
-        padding: 50px;
+        padding: 15px;
     }
     .services h1{       
-        padding: 30px;
-        font-size: 20px;        
+        padding: 15px;
+        font-size: 18px;        
     }
     .serdiv p{
         font-size: 14px;
     }
     .serdiv h2{
-        font-size: 18px;
+        font-size: 17px;
     }
     footer p{
         font-size: 14px;
