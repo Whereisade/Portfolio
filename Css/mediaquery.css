@@ -99,6 +99,22 @@
         width: 250px;
         border-radius: 50%;
     }
+    .conmain{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .conhead{  
+        padding: 120px;
+        font-size: 25px;
+       
+    }
+    #cmessage h1{
+        font-size: 23px;
+    }
+    label{
+        font-size: 18px;
+        
+    }
     
 }
 @media screen and (max-width: 480px) {
