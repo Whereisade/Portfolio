@@ -222,6 +222,9 @@
         color: antiquewhite;
         
     }
+    .navi h1 a{
+        font-size: 30px;
+    }
 
     .navlist{
       
@@ -265,6 +268,9 @@
         
         
     }
+    .aboutinfo{
+        text-align: center;
+    }
     .introname h2{
         font-size: 2rem;
         margin-left: 5px;
@@ -289,7 +295,7 @@
     
     .abouthead{
         
-        text-align: left;
+        text-align: center;
         font-size: 20px;
         padding-bottom: 20px;
         font-size: 18px;
@@ -307,19 +313,21 @@
        
         position: relative;
         
-        /* text-align: center; */
+        text-align: center;
     }
     .aboutsp h1{
         margin-top: -10px;
         padding-bottom: 40px;
-        font-size: 18px;
-        text-align: center;
+        font-size: 25px;
+        margin-left: 10px;
+        
+        /* text-align: center; */
        
     }
     .aboutinfo{
         margin-left: 0px;
         width: 100%;
-        text-align: left;
+        text-align: center;
         flex-wrap: wrap;
     }
     .aboutinfo p{
