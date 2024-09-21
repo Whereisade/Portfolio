@@ -1,18 +1,59 @@
 @media screen and (max-width: 850px){
-    .dev{
-        flex-direction: column;
-        gap: 30px;
+    li{
+        padding: 20px;
        
+        
     }
     li a{ 
-        margin-right: 50px;
+        /* margin-right: 10px; */
         font-size: 18px;
-        
+        color: white;
         
     }
-    .navlist{
-        margin-left: 30px;
+    header{
+        position: relative;
+        
+    }
+    /* .navi{
+        position: absolute;
+        background-color: #E7A117;
+        margin-left: auto;
+    } */
+    .navi h1 a{
+        font-size: 40px;
+    }
 
+    .dropD{
+        display: block;
+        font-size: 30px;
+        color: #E7A117;
+        
+    }
+    .closex{
+        display: block;
+        position: absolute;
+        font-size: 24px;
+        top: 10px;
+        right: 35px;
+        color: antiquewhite;
+        
+    }
+
+    .navlist{
+      
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #E7A117;
+        gap: 0;
+        overflow: hidden;
+        margin-left: 0;
+        display: none;
+        
+        
     }
 
     
@@ -78,10 +119,26 @@
         
         
     }
+    .webdesign{
+        width: auto;
+        text-align: center;
+    }
+    .videoedit{
+        width: auto;
+        text-align: center;
+
+    }
+    .copywrite{
+        width: auto;
+        text-align: center;
+    }
     .serdiv{
         flex-direction: column;
         gap: 50px;
         align-items: center;
+    }
+    .services p{
+        font-size: 20px;
     }
     
     .tophead{
@@ -111,10 +168,13 @@
        
     }
     #cmessage h1{
-        font-size: 23px;
+        font-size: 28px;
+    }
+    #cmessage p{
+        font-size: 20px;
     }
     label{
-        font-size: 18px;
+        font-size: 21px;
         
     }
     
@@ -154,9 +214,12 @@
         
     }
     .closex{
-        display: none;
-        font-size: 24px;
-        
+        display: block;
+        position: absolute;
+        font-size: 20px;
+        top: 10px;
+        right: 35px;
+        color: antiquewhite;
         
     }
 
@@ -172,6 +235,7 @@
         gap: 0;
         overflow: hidden;
         margin-left: 0;
+        display: none;
         
         
     }
@@ -373,6 +437,7 @@
         font-size: 23px;
     }
     #cmessage p{
+        margin-top: 5px;
         font-size: 14px;
         font-weight: 20;
     }
@@ -417,7 +482,7 @@
     }
     .shead{
         margin: 20px;
-        font-size: 18px;
+        font-size: 14px;
         
     }
 

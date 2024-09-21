@@ -1,11 +1,13 @@
-let menuList = document.querySelector('navList')
-menuList.style.maxHeight = "0px";
+const menuList = document.querySelector('.navlist')
+const menu = document.getElementById('menu')
+const closexx = document.querySelector('.fa-x')
 
-function toggleMenu(){
-    if(menuList.style.maxHeight == "0px"){
-        menuList.style.maxHeight = "300px"
-    }
-    else{
-        menuList.style.maxHeight = "0px";
-    }
+menu.addEventListener('click', ()=>{
+    menuList.style.display = "flex"
+})
+function closeMenu(){
+    menuList.style.display = "none"
 }
+
+closexx.addEventListener("click", closeMenu)
+
