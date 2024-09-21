@@ -24,6 +24,15 @@ header{
     z-index: 10;
     background-color: #222832;
 }
+
+.dropD{
+    display: none;
+
+}
+
+.closex{
+    display: none;
+}
 .navi{
     
     padding: 20px 15px 20px 25px;
