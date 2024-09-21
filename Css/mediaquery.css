@@ -126,8 +126,10 @@
     
     
     .dev{
+        
         flex-direction: column;
         gap: 20px;
+        
     }
     li a{ 
         margin-right: 10px;
@@ -135,7 +137,40 @@
         
         
     }
+    header{
+        position: relative;
+        
+    }
+    .navi{
+        position: absolute;
+        background-color: #E7A117;
+        margin-left: auto;
+    }
 
+    .dropD{
+        display: block;
+        font-size: 24px;
+        position: absolute;
+    }
+    .closex{
+        display: block;
+        font-size: 24px;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+
+    .navlist{
+      
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: #E7A117;
+    }
+   
 
     .firstsec{
         

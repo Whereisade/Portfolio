@@ -34,27 +34,33 @@ header{
     display: none;
 }
 .navi{
-    
-    padding: 20px 15px 20px 25px;
-}
-.dev{
     display: flex;
+    padding: 10px 30px;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    height: 70px;
 }
-.dev h1 a{
+
+.navi h1 a{
     font-size: 25px;
-    color: #E7A117;
+    color: whitesmoke;
+}
+.navlist{
+    display: flex;
+    gap: 35px;
+    align-items: center;
 }
 li{
-    display: inline-block;
+    /* display: inline-block; */
     list-style-type: none;
 }
 li a{ 
-    margin-right: 30px;
+    
     font-size: 20px;
     font-weight: 500;
     color: #E7A117;
+    text-decoration: none;
     
 }
 li a:hover{
