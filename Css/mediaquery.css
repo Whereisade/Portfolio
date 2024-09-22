@@ -256,6 +256,17 @@
         margin-left: 50px;
         align-items: center;
     }
+    .portpic{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        
+    }
+    .picctn{
+        width: auto;
+        
+    
+    }
     
     .introname{
         
