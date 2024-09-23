@@ -338,7 +338,7 @@
     .aboutinfo{
         margin-left: 0px;
         width: 100%;
-        text-align: center;
+        text-align: left;
         flex-wrap: wrap;
     }
     .aboutinfo p{
