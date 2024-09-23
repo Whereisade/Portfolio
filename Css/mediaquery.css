@@ -229,7 +229,7 @@
     .navlist{
       
         position: absolute;
-        top: 70px;
+        top: 10px;
         left: 0;
         right: 0;
         flex-direction: column;
